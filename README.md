@@ -4,9 +4,11 @@ A small language model that reads what a person says to a calendar app and
 writes the calendar entry as JSON: "Lunch with Tom tomorrow at 1", then
 "make it 2", "invite Anna", "every Friday except in August". It is
 [Qwen3.5 0.8B](https://huggingface.co/Qwen/Qwen3.5-0.8B) fine-tuned for this
-one task, and it runs on the iPhone in [Solunivo](https://solunivo.com)'s
-Assistant through llama.cpp ([llama.rn](https://github.com/mybigday/llama.rn)).
-The app downloads it once, after asking.
+one task, and it runs in [Solunivo](https://solunivo.com)'s Assistant
+through llama.cpp: on the iPhone with
+[llama.rn](https://github.com/mybigday/llama.rn), on the Mac with
+llama.cpp's own `llama-server`, the same commit. The app downloads it
+once, after asking.
 
 ## Files
 
@@ -59,7 +61,7 @@ Phrase: Lunch tomorrow at 1
 A later turn, with the draft as it stands and what was said before:
 
 ```text
-Calendar entry as JSON.
+Calendar entry as JSON, after the change.
 Days: Thu 2026-11-12 (today), Fri 2026-11-13, …, Wed 2026-11-25
 Draft: {"kind":"event","title":"Lunch with Tom","date":"2026-11-13","startTime":"13:00","endTime":"14:00","location":"Café Roth","guests":["tom.baker@example.com"],"reminders":[30]}
 Said before: ["Lunch with Tom tomorrow at 1"]
