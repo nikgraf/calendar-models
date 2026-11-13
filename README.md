@@ -12,14 +12,31 @@ once, after asking.
 
 ## Files
 
-Each version is a [release](../../releases) of this repository.
+Each version is a [release](../../releases) of this repository: the model
+file the app downloads, and the adapter it was made from.
 
 | Version | File | Bytes | SHA-256 |
 | --- | --- | --- | --- |
 | v1 | `solunivo-assistant-q8_0.gguf` | 833,592,288 | `954ca95027feb405e2f98ef26fdeb0814d2fdbf4bd2ebddbeb9e9c321ba838d3` |
+| v1 | `solunivo-assistant-lora.zip` | 40,055,673 | `2817c38384c3bf2bc57532b8cd4a179c07357a4a9b9e5841bdcf34dbe5cac65a` |
 
 GGUF, quantized to Q8_0 with llama.cpp v0.8.0 (`8642541`), the version
 llama.rn vendors.
+
+The zip holds the LoRA adapter as [mlx-lm](https://github.com/ml-explore/mlx-lm)
+wrote it (`adapters.safetensors`, `adapter_config.json`) and its training
+settings (`lora.yaml`). Written into the base model at revision `2fc0636`
+with `fuse_hf.py` (in nikgraf/calendar, below), it gives the very weights
+the GGUF was converted from, byte for byte, so another quantization needs
+no new training run.
+
+In this repository, per version:
+
+- `data/<version>/`: the training data (see below).
+- `reports/<version>/`: the bench report the scores below come from, which
+  the bench can compare a later model with (`MODEL_BENCH_COMPARE`), and the
+  model's answers to the held-back turns (`held-back-answers.jsonl`: the
+  prompt, the teacher's answer as `want`, the model's as `got`).
 
 ## Where it comes from
 
@@ -39,11 +56,26 @@ llama.rn vendors.
   Platform Terms of Service (effective 2026-04-29), section 4.2(3), allow
   using its outputs for "training other models (such as model
   distillation)". No user data, no personal data, and no output of Claude
-  or any other Anthropic model went into the data.
+  or any other Anthropic model went into the data. Every email address in
+  it is at `example.com`.
 - **The code** that made the data, trained the model and scores it is in
   [nikgraf/calendar](https://github.com/nikgraf/calendar), under
   `apps/desktop/e2e/bench/` (`train/README.md`), and the code that asks it
   in the app is `packages/ai/src/tuned.ts`.
+
+## The training data (`data/v1/`)
+
+Each step's output, in the order the steps ran (`train/README.md` in
+nikgraf/calendar says how each was made):
+
+| File | What it holds |
+| --- | --- |
+| `names.json` | The made-up people and places the phrases may name. |
+| `threads.jsonl` | The practice threads as written, each with the brief it was written for (language, way of writing, what it exercises): 4,808. |
+| `labelled.jsonl` | The 4,380 threads kept (repeats, phrases close to a bench case and copies of a brief's example left out), each with the day it is said on and the teacher's answer to every turn. |
+| `said.jsonl` | For a turn that set a day or a repeat: how the words gave the day (by its number, as an amount of time, or otherwise) and the weekdays a repeat rules out. |
+| `train.jsonl`, `valid.jsonl` | The chats the model was trained on (5,994) and checked on (330): the prompt the app sends, and the answer to learn. |
+| `stats.json` | Counts: by language, first phrases and follow-ups, how the days were said. |
 
 ## How to ask it
 
@@ -94,6 +126,9 @@ recordings run as their transcripts), the file served by llama.cpp on a Mac:
 | This model, Q8_0 | 57 / 70 | 99 / 115 |
 | This model before quantizing (MLX, bf16) | 58 / 70 | 100 / 115 |
 | Its teacher, DeepSeek V4-Flash (the bench's plain prompt, the schema in it) | 65 / 70 | |
+
+The Q8_0 row's report, from the app's main branch on 2026-11-13, is
+`reports/v1/bench-20261113-e87d5730.json`.
 
 On the 330 practice turns held back from training, it gives its teacher's
 answer for 242 once said dates are worked out: 161 of 222 first phrases and

@@ -1,0 +1,20 @@
+{
+  "asSaid": {
+    "day": 221,
+    "except": 183,
+    "monthDay": 356,
+    "offset": 63,
+    "unfit": 36
+  },
+  "byLanguage": {
+    "en": 3108,
+    "de": 3216
+  },
+  "first": 4364,
+  "later": 1960,
+  "nothing": 60,
+  "skipped": 19,
+  "threads": 4380,
+  "train": 5994,
+  "valid": 330
+}
