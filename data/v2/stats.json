@@ -1,0 +1,30 @@
+{
+  "asSaid": {
+    "day": 287,
+    "except": 195,
+    "length": 149,
+    "monthDay": 426,
+    "noAlert": 139,
+    "noDay": 4861,
+    "offset": 80,
+    "shift": 199,
+    "timeUnfit": 42,
+    "unfit": 77
+  },
+  "byLanguage": {
+    "en": 6001,
+    "de": 5700
+  },
+  "first": 6202,
+  "later": 3447,
+  "nothing": 71,
+  "skipped": 31,
+  "finder": {
+    "lengthLeftOut": 1462,
+    "sentences": 2052,
+    "skipped": 9
+  },
+  "threads": 6224,
+  "train": 11103,
+  "valid": 598
+}

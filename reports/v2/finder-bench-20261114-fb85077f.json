@@ -1,0 +1,1451 @@
+{
+  "cases": [
+    {
+      "answer": {
+        "durationMinutes": 90,
+        "windowStartDate": "2026-11-16",
+        "windowEndDate": "2026-11-22",
+        "earliestTime": "08:00",
+        "latestTime": "12:00",
+        "title": "focus"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "08:00–12:00",
+            "dates": "2026-11-16..2026-11-22",
+            "duration": "90",
+            "title": "focus"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "08:00–12:00",
+            "dates": "2026-11-16..2026-11-22",
+            "duration": "90",
+            "title": "focus"
+          }
+        }
+      },
+      "id": "focus-90-next-week-mornings",
+      "lang": "en",
+      "ms": 833,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Find 90 min for focus next week, mornings",
+      "text": "Find 90 min for focus next week, mornings"
+    },
+    {
+      "answer": {
+        "durationMinutes": 30,
+        "windowStartDate": "2026-11-15",
+        "windowEndDate": "2026-11-15",
+        "earliestTime": "12:00",
+        "latestTime": "17:00",
+        "title": "call with Anna"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "12:00–17:00",
+            "dates": "2026-11-15..2026-11-15",
+            "duration": "30",
+            "title": "call with Anna"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "12:00–17:00",
+            "dates": "2026-11-15..2026-11-15",
+            "duration": "30",
+            "title": "call with Anna"
+          }
+        }
+      },
+      "id": "call-anna-tomorrow-afternoon",
+      "lang": "en",
+      "ms": 834,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: When can I fit a 30 minute call with Anna tomorrow afternoon?",
+      "text": "When can I fit a 30 minute call with Anna tomorrow afternoon?"
+    },
+    {
+      "answer": {
+        "durationMinutes": 60,
+        "windowStartDate": "2026-11-14",
+        "windowEndDate": "2026-11-14",
+        "title": "walk"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-14..2026-11-14",
+            "duration": "60",
+            "title": "walk"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-14..2026-11-14",
+            "duration": "60",
+            "title": "walk"
+          }
+        }
+      },
+      "id": "walk-hour-today",
+      "lang": "en",
+      "ms": 554,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Find an hour for a walk today",
+      "text": "Find an hour for a walk today"
+    },
+    {
+      "answer": {
+        "durationMinutes": 120,
+        "windowStartDate": "2026-11-14",
+        "windowEndDate": "2026-11-15"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-14..2026-11-15",
+            "duration": "120",
+            "title": "-"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-14..2026-11-15",
+            "duration": "120",
+            "title": "-"
+          }
+        }
+      },
+      "id": "two-hours-this-week",
+      "lang": "en",
+      "ms": 522,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Find 2 hours this week",
+      "text": "Find 2 hours this week"
+    },
+    {
+      "answer": {
+        "durationMinutes": 30,
+        "daysOfWeek": [
+          4
+        ],
+        "earliestTime": "11:30",
+        "latestTime": "14:00",
+        "title": "lunch"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "11:30–14:00",
+            "dates": "2026-11-14..2026-11-20 on 4",
+            "duration": "30",
+            "title": "lunch"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "11:30–14:00",
+            "dates": "2026-11-14..2026-11-20 on 4",
+            "duration": "30",
+            "title": "lunch"
+          }
+        }
+      },
+      "id": "half-hour-lunch-thursday",
+      "lang": "en",
+      "ms": 508,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Half an hour at lunch on Thursday",
+      "text": "Half an hour at lunch on Thursday"
+    },
+    {
+      "answer": {
+        "windowStartDate": "2026-11-16",
+        "windowEndDate": "2026-11-22",
+        "earliestTime": "18:00",
+        "latestTime": "21:00",
+        "title": "dinner with Tom"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "18:00–21:00",
+            "dates": "2026-11-16..2026-11-22",
+            "duration": "60",
+            "title": "dinner with Tom"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "18:00–21:00",
+            "dates": "2026-11-16..2026-11-22",
+            "duration": "60",
+            "title": "dinner with Tom"
+          }
+        }
+      },
+      "id": "dinner-tom-next-week",
+      "lang": "en",
+      "ms": 738,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: When can I have dinner with Tom next week?",
+      "text": "When can I have dinner with Tom next week?"
+    },
+    {
+      "answer": {
+        "durationMinutes": 45,
+        "daysOfWeek": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "earliestTime": "17:00",
+        "title": "run"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "17:00–",
+            "dates": "2026-11-14..2026-11-20 on 1,2,3,4,5",
+            "duration": "45",
+            "title": "run"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "17:00–",
+            "dates": "2026-11-14..2026-11-20 on 1,2,3,4,5",
+            "duration": "45",
+            "title": "run"
+          }
+        }
+      },
+      "id": "run-weekdays-after-5",
+      "lang": "en",
+      "ms": 467,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Find 45 minutes on weekdays after 5pm for a run",
+      "text": "Find 45 minutes on weekdays after 5pm for a run"
+    },
+    {
+      "answer": {
+        "durationMinutes": 120,
+        "windowStartDate": "2026-11-14",
+        "windowEndDate": "2026-11-15",
+        "daysOfWeek": [
+          6,
+          7
+        ],
+        "earliestTime": "08:00",
+        "latestTime": "12:00"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "08:00–12:00",
+            "dates": "2026-11-14..2026-11-15 on 6,7",
+            "duration": "120",
+            "title": "-"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "08:00–12:00",
+            "dates": "2026-11-14..2026-11-15 on 6,7",
+            "duration": "120",
+            "title": "-"
+          }
+        }
+      },
+      "id": "two-hours-weekend-morning",
+      "lang": "en",
+      "ms": 857,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Two hours on the weekend, in the morning",
+      "text": "Two hours on the weekend, in the morning"
+    },
+    {
+      "answer": {
+        "durationMinutes": 45,
+        "windowStartDate": "2026-11-16",
+        "windowEndDate": "2026-11-22",
+        "daysOfWeek": [
+          2,
+          4
+        ]
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-16..2026-11-22 on 2,4",
+            "duration": "45",
+            "title": "-"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-16..2026-11-22 on 2,4",
+            "duration": "45",
+            "title": "-"
+          }
+        }
+      },
+      "id": "tuesday-or-thursday-next-week",
+      "lang": "en",
+      "ms": 603,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: 45 min on Tuesday or Thursday next week",
+      "text": "45 min on Tuesday or Thursday next week"
+    },
+    {
+      "answer": {
+        "durationMinutes": 20,
+        "windowStartDate": "2026-11-15",
+        "windowEndDate": "2026-11-15",
+        "latestTime": "10:00"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "–10:00",
+            "dates": "2026-11-15..2026-11-15",
+            "duration": "20",
+            "title": "-"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "–10:00",
+            "dates": "2026-11-15..2026-11-15",
+            "duration": "20",
+            "title": "-"
+          }
+        }
+      },
+      "id": "twenty-min-tomorrow-before-10",
+      "lang": "en",
+      "ms": 630,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Find 20 minutes tomorrow before 10",
+      "text": "Find 20 minutes tomorrow before 10"
+    },
+    {
+      "answer": {
+        "durationMinutes": 60,
+        "windowStartDate": "2026-11-14",
+        "windowEndDate": "2026-11-15",
+        "earliestTime": "14:00",
+        "latestTime": "16:00"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "14:00–16:00",
+            "dates": "2026-11-14..2026-11-15",
+            "duration": "60",
+            "title": "-"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "14:00–16:00",
+            "dates": "2026-11-14..2026-11-15",
+            "duration": "60",
+            "title": "-"
+          }
+        }
+      },
+      "id": "hour-between-2-and-4",
+      "lang": "en",
+      "ms": 765,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Find an hour between 2 and 4pm this week",
+      "text": "Find an hour between 2 and 4pm this week"
+    },
+    {
+      "answer": {
+        "durationMinutes": 90,
+        "windowStartDate": "2026-11-16",
+        "windowEndDate": "2026-11-22",
+        "title": "quarterly review"
+      },
+      "arms": {
+        "raw": {
+          "failed": [
+            "dates"
+          ],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-16..2026-11-22",
+            "duration": "90",
+            "title": "quarterly review"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-14..2026-11-27",
+            "duration": "90",
+            "title": "quarterly review"
+          }
+        }
+      },
+      "id": "review-next-two-weeks",
+      "lang": "en",
+      "ms": 572,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Find 90 minutes in the next two weeks for the quarterly review",
+      "text": "Find 90 minutes in the next two weeks for the quarterly review"
+    },
+    {
+      "answer": {
+        "durationMinutes": 40,
+        "earliestTime": "17:00",
+        "latestTime": "21:00",
+        "title": "practice guitar"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "17:00–21:00",
+            "dates": "2026-11-14..2026-11-20",
+            "duration": "40",
+            "title": "practice guitar"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "17:00–21:00",
+            "dates": "2026-11-14..2026-11-20",
+            "duration": "40",
+            "title": "practice guitar"
+          }
+        }
+      },
+      "id": "guitar-evening",
+      "lang": "en",
+      "ms": 452,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: When can I practice guitar for 40 minutes in the evening?",
+      "text": "When can I practice guitar for 40 minutes in the evening?"
+    },
+    {
+      "answer": {
+        "windowStartDate": "2026-11-14",
+        "windowEndDate": "2026-11-15",
+        "earliestTime": "07:00",
+        "latestTime": "10:00",
+        "title": "breakfast with Sarah"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "07:00–10:00",
+            "dates": "2026-11-14..2026-11-15",
+            "duration": "60",
+            "title": "breakfast with Sarah"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "07:00–10:00",
+            "dates": "2026-11-14..2026-11-15",
+            "duration": "60",
+            "title": "breakfast with Sarah"
+          }
+        }
+      },
+      "id": "breakfast-sarah-this-week",
+      "lang": "en",
+      "ms": 775,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Find time for breakfast with Sarah this week",
+      "text": "Find time for breakfast with Sarah this week"
+    },
+    {
+      "answer": {
+        "durationMinutes": 60,
+        "windowStartDate": "2026-11-16",
+        "windowEndDate": "2026-11-16"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-16..2026-11-16",
+            "duration": "60",
+            "title": "-"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-16..2026-11-16",
+            "duration": "60",
+            "title": "-"
+          }
+        }
+      },
+      "id": "free-hour-day-after-tomorrow",
+      "lang": "en",
+      "ms": 495,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Find a free hour the day after tomorrow",
+      "text": "Find a free hour the day after tomorrow"
+    },
+    {
+      "answer": {
+        "durationMinutes": 30,
+        "daysOfWeek": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7
+        ],
+        "title": "Find 30 minutes"
+      },
+      "arms": {
+        "raw": {
+          "failed": [
+            "title"
+          ],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-14..2026-11-20 on 1,2,3,4,6,7",
+            "duration": "30",
+            "title": "Find 30 minutes"
+          }
+        },
+        "rules": {
+          "failed": [
+            "title"
+          ],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-14..2026-11-20 on 1,2,3,4,6,7",
+            "duration": "30",
+            "title": "Find 30 minutes"
+          }
+        }
+      },
+      "id": "thirty-min-except-friday",
+      "lang": "en",
+      "ms": 478,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Find 30 minutes any day except Friday",
+      "text": "Find 30 minutes any day except Friday"
+    },
+    {
+      "answer": {
+        "durationMinutes": 90,
+        "windowStartDate": "2026-11-14",
+        "windowEndDate": "2026-11-15",
+        "title": "workout"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-14..2026-11-15",
+            "duration": "90",
+            "title": "workout"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-14..2026-11-15",
+            "duration": "90",
+            "title": "workout"
+          }
+        }
+      },
+      "id": "workout-one-and-a-half-hours",
+      "lang": "en",
+      "ms": 566,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Find 1.5 hours for a workout this week",
+      "text": "Find 1.5 hours for a workout this week"
+    },
+    {
+      "answer": {
+        "durationMinutes": 180,
+        "windowStartDate": "2026-11-16",
+        "windowEndDate": "2026-11-22",
+        "daysOfWeek": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "earliestTime": "08:00",
+        "latestTime": "12:00",
+        "title": "deep work"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "08:00–12:00",
+            "dates": "2026-11-16..2026-11-22 on 1,2,3,4,5",
+            "duration": "180",
+            "title": "deep work"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "08:00–12:00",
+            "dates": "2026-11-16..2026-11-22 on 1,2,3,4,5",
+            "duration": "180",
+            "title": "deep work"
+          }
+        }
+      },
+      "id": "deep-work-weekday-mornings",
+      "lang": "en",
+      "ms": 1034,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: 3 hours of deep work on weekday mornings next week",
+      "text": "3 hours of deep work on weekday mornings next week"
+    },
+    {
+      "answer": {
+        "durationMinutes": 15,
+        "windowStartDate": "2026-11-14",
+        "windowEndDate": "2026-11-14",
+        "title": "sync with Tom"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-14..2026-11-14",
+            "duration": "15",
+            "title": "sync with Tom"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-14..2026-11-14",
+            "duration": "15",
+            "title": "sync with Tom"
+          }
+        }
+      },
+      "id": "sync-tom-15-today",
+      "lang": "en",
+      "ms": 568,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Find 15 minutes for a sync with Tom today",
+      "text": "Find 15 minutes for a sync with Tom today"
+    },
+    {
+      "answer": {
+        "windowStartDate": "2026-11-16",
+        "windowEndDate": "2026-11-22",
+        "earliestTime": "11:30",
+        "latestTime": "14:00",
+        "title": "lunch with Anna"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "11:30–14:00",
+            "dates": "2026-11-16..2026-11-22",
+            "duration": "60",
+            "title": "lunch with Anna"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "11:30–14:00",
+            "dates": "2026-11-16..2026-11-22",
+            "duration": "60",
+            "title": "lunch with Anna"
+          }
+        }
+      },
+      "id": "lunch-anna-next-week",
+      "lang": "en",
+      "ms": 769,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: When could I do lunch with Anna next week?",
+      "text": "When could I do lunch with Anna next week?"
+    },
+    {
+      "answer": {
+        "durationMinutes": 60,
+        "windowStartDate": "2026-11-15",
+        "windowEndDate": "2026-11-15",
+        "earliestTime": "14:00"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "14:00–",
+            "dates": "2026-11-15..2026-11-15",
+            "duration": "60",
+            "title": "-"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "14:00–",
+            "dates": "2026-11-15..2026-11-15",
+            "duration": "60",
+            "title": "-"
+          }
+        }
+      },
+      "id": "hour-after-lunch-tomorrow",
+      "lang": "en",
+      "ms": 652,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Find an hour after lunch tomorrow",
+      "text": "Find an hour after lunch tomorrow"
+    },
+    {
+      "answer": {
+        "durationMinutes": 120,
+        "windowStartDate": "2026-11-16",
+        "windowEndDate": "2026-11-16",
+        "daysOfWeek": [
+          1
+        ],
+        "title": "workshop"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-16..2026-11-16 on 1",
+            "duration": "120",
+            "title": "workshop"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-16..2026-11-16 on 1",
+            "duration": "120",
+            "title": "workshop"
+          }
+        }
+      },
+      "id": "workshop-2h-monday",
+      "lang": "en",
+      "ms": 662,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Find time for a 2h workshop on Monday",
+      "text": "Find time for a 2h workshop on Monday"
+    },
+    {
+      "answer": {
+        "durationMinutes": 25,
+        "windowStartDate": "2026-11-14",
+        "windowEndDate": "2026-11-14",
+        "daysOfWeek": [
+          6
+        ],
+        "earliestTime": "08:00",
+        "latestTime": "12:00",
+        "title": "haircut"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "08:00–12:00",
+            "dates": "2026-11-14..2026-11-14 on 6",
+            "duration": "25",
+            "title": "haircut"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "08:00–12:00",
+            "dates": "2026-11-14..2026-11-14 on 6",
+            "duration": "25",
+            "title": "haircut"
+          }
+        }
+      },
+      "id": "haircut-saturday-morning",
+      "lang": "en",
+      "ms": 894,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: I need 25 minutes for a haircut on Saturday morning",
+      "text": "I need 25 minutes for a haircut on Saturday morning"
+    },
+    {
+      "answer": {
+        "durationMinutes": 50,
+        "windowStartDate": "2026-11-18",
+        "windowEndDate": "2026-11-18",
+        "daysOfWeek": [
+          3
+        ],
+        "earliestTime": "12:00",
+        "latestTime": "17:00"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "12:00–17:00",
+            "dates": "2026-11-18..2026-11-18 on 3",
+            "duration": "50",
+            "title": "-"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "12:00–17:00",
+            "dates": "2026-11-18..2026-11-18 on 3",
+            "duration": "50",
+            "title": "-"
+          }
+        }
+      },
+      "id": "fifty-min-wednesday-afternoon",
+      "lang": "en",
+      "ms": 791,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: When am I free for 50 minutes on Wednesday afternoon?",
+      "text": "When am I free for 50 minutes on Wednesday afternoon?"
+    },
+    {
+      "answer": {
+        "durationMinutes": 90,
+        "windowStartDate": "2026-11-16",
+        "windowEndDate": "2026-11-22",
+        "earliestTime": "08:00",
+        "latestTime": "12:00",
+        "title": "Fokuszeit"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "08:00–12:00",
+            "dates": "2026-11-16..2026-11-22",
+            "duration": "90",
+            "title": "Fokuszeit"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "08:00–12:00",
+            "dates": "2026-11-16..2026-11-22",
+            "duration": "90",
+            "title": "Fokuszeit"
+          }
+        }
+      },
+      "id": "fokus-90-naechste-woche-vormittags",
+      "lang": "de",
+      "ms": 849,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Finde 90 Minuten für Fokuszeit nächste Woche vormittags",
+      "text": "Finde 90 Minuten für Fokuszeit nächste Woche vormittags"
+    },
+    {
+      "answer": {
+        "durationMinutes": 60,
+        "windowStartDate": "2026-11-15",
+        "windowEndDate": "2026-11-15",
+        "earliestTime": "12:00",
+        "latestTime": "17:00"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "12:00–17:00",
+            "dates": "2026-11-15..2026-11-15",
+            "duration": "60",
+            "title": "-"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "12:00–17:00",
+            "dates": "2026-11-15..2026-11-15",
+            "duration": "60",
+            "title": "-"
+          }
+        }
+      },
+      "id": "stunde-morgen-nachmittag",
+      "lang": "de",
+      "ms": 779,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Wann habe ich morgen Nachmittag eine Stunde Zeit?",
+      "text": "Wann habe ich morgen Nachmittag eine Stunde Zeit?"
+    },
+    {
+      "answer": {
+        "durationMinutes": 90,
+        "windowStartDate": "2026-11-14",
+        "windowEndDate": "2026-11-15",
+        "title": "Sport"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-14..2026-11-15",
+            "duration": "90",
+            "title": "Sport"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-14..2026-11-15",
+            "duration": "90",
+            "title": "Sport"
+          }
+        }
+      },
+      "id": "sport-eineinhalb-stunden",
+      "lang": "de",
+      "ms": 600,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Eineinhalb Stunden für Sport diese Woche",
+      "text": "Eineinhalb Stunden für Sport diese Woche"
+    },
+    {
+      "answer": {
+        "durationMinutes": 30,
+        "windowStartDate": "2026-11-16",
+        "windowEndDate": "2026-11-16",
+        "title": "mit Anna telefonieren"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-16..2026-11-16",
+            "duration": "30",
+            "title": "mit Anna telefonieren"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-16..2026-11-16",
+            "duration": "30",
+            "title": "mit Anna telefonieren"
+          }
+        }
+      },
+      "id": "anna-telefonieren-uebermorgen",
+      "lang": "de",
+      "ms": 612,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Wann kann ich übermorgen 30 Minuten mit Anna telefonieren?",
+      "text": "Wann kann ich übermorgen 30 Minuten mit Anna telefonieren?"
+    },
+    {
+      "answer": {
+        "durationMinutes": 120,
+        "windowStartDate": "2026-11-14",
+        "windowEndDate": "2026-11-15",
+        "daysOfWeek": [
+          6,
+          7
+        ]
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-14..2026-11-15 on 6,7",
+            "duration": "120",
+            "title": "-"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-14..2026-11-15 on 6,7",
+            "duration": "120",
+            "title": "-"
+          }
+        }
+      },
+      "id": "zwei-stunden-wochenende",
+      "lang": "de",
+      "ms": 590,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Zwei Stunden am Wochenende",
+      "text": "Zwei Stunden am Wochenende"
+    },
+    {
+      "answer": {
+        "durationMinutes": 45,
+        "daysOfWeek": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "earliestTime": "18:00"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "18:00–",
+            "dates": "2026-11-14..2026-11-20 on 1,2,3,4,5",
+            "duration": "45",
+            "title": "-"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "18:00–",
+            "dates": "2026-11-14..2026-11-20 on 1,2,3,4,5",
+            "duration": "45",
+            "title": "-"
+          }
+        }
+      },
+      "id": "werktags-nach-18",
+      "lang": "de",
+      "ms": 454,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Finde 45 Minuten werktags nach 18 Uhr",
+      "text": "Finde 45 Minuten werktags nach 18 Uhr"
+    },
+    {
+      "answer": {
+        "windowStartDate": "2026-11-16",
+        "windowEndDate": "2026-11-22",
+        "earliestTime": "18:00",
+        "latestTime": "21:00",
+        "title": "Abendessen mit Tom"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "18:00–21:00",
+            "dates": "2026-11-16..2026-11-22",
+            "duration": "60",
+            "title": "Abendessen mit Tom"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "18:00–21:00",
+            "dates": "2026-11-16..2026-11-22",
+            "duration": "60",
+            "title": "Abendessen mit Tom"
+          }
+        }
+      },
+      "id": "abendessen-tom-naechste-woche",
+      "lang": "de",
+      "ms": 746,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Wann passt ein Abendessen mit Tom nächste Woche?",
+      "text": "Wann passt ein Abendessen mit Tom nächste Woche?"
+    },
+    {
+      "answer": {
+        "durationMinutes": 60,
+        "windowStartDate": "2026-11-14",
+        "windowEndDate": "2026-11-14",
+        "earliestTime": "17:00",
+        "latestTime": "21:00",
+        "title": "Lesen"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "17:00–21:00",
+            "dates": "2026-11-14..2026-11-14",
+            "duration": "60",
+            "title": "Lesen"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "17:00–21:00",
+            "dates": "2026-11-14..2026-11-14",
+            "duration": "60",
+            "title": "Lesen"
+          }
+        }
+      },
+      "id": "lesen-heute-abend",
+      "lang": "de",
+      "ms": 800,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Eine Stunde heute Abend für Lesen",
+      "text": "Eine Stunde heute Abend für Lesen"
+    },
+    {
+      "answer": {
+        "durationMinutes": 20,
+        "windowStartDate": "2026-11-15",
+        "windowEndDate": "2026-11-15",
+        "latestTime": "10:00"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "–10:00",
+            "dates": "2026-11-15..2026-11-15",
+            "duration": "20",
+            "title": "-"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "–10:00",
+            "dates": "2026-11-15..2026-11-15",
+            "duration": "20",
+            "title": "-"
+          }
+        }
+      },
+      "id": "zwanzig-minuten-morgen-vor-10",
+      "lang": "de",
+      "ms": 626,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Finde 20 Minuten morgen vor 10 Uhr",
+      "text": "Finde 20 Minuten morgen vor 10 Uhr"
+    },
+    {
+      "answer": {
+        "durationMinutes": 30,
+        "windowStartDate": "2026-11-14",
+        "windowEndDate": "2026-11-15",
+        "earliestTime": "11:30",
+        "latestTime": "14:00",
+        "title": "Mittagessen mit Sarah"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "11:30–14:00",
+            "dates": "2026-11-14..2026-11-15",
+            "duration": "30",
+            "title": "Mittagessen mit Sarah"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "11:30–14:00",
+            "dates": "2026-11-14..2026-11-15",
+            "duration": "30",
+            "title": "Mittagessen mit Sarah"
+          }
+        }
+      },
+      "id": "mittagessen-sarah-halbe-stunde",
+      "lang": "de",
+      "ms": 867,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Mittagessen mit Sarah diese Woche, eine halbe Stunde",
+      "text": "Mittagessen mit Sarah diese Woche, eine halbe Stunde"
+    },
+    {
+      "answer": {
+        "daysOfWeek": [
+          4
+        ],
+        "title": "Spaziergang"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-14..2026-11-20 on 4",
+            "duration": "60",
+            "title": "Spaziergang"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-14..2026-11-20 on 4",
+            "duration": "60",
+            "title": "Spaziergang"
+          }
+        }
+      },
+      "id": "spaziergang-donnerstag",
+      "lang": "de",
+      "ms": 225,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Zeit für einen Spaziergang am Donnerstag",
+      "text": "Zeit für einen Spaziergang am Donnerstag"
+    },
+    {
+      "answer": {
+        "durationMinutes": 120,
+        "windowStartDate": "2026-11-14",
+        "windowEndDate": "2026-11-27",
+        "title": "Steuererklärung"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-14..2026-11-27",
+            "duration": "120",
+            "title": "Steuererklärung"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-14..2026-11-27",
+            "duration": "120",
+            "title": "Steuererklärung"
+          }
+        }
+      },
+      "id": "steuererklaerung-zwei-wochen",
+      "lang": "de",
+      "ms": 579,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Finde 2 Stunden in den nächsten zwei Wochen für die Steuererklärung",
+      "text": "Finde 2 Stunden in den nächsten zwei Wochen für die Steuererklärung"
+    },
+    {
+      "answer": {
+        "durationMinutes": 60,
+        "windowStartDate": "2026-11-16",
+        "windowEndDate": "2026-11-22",
+        "daysOfWeek": [
+          2,
+          4
+        ],
+        "title": "Dienstags oder Donnerstag"
+      },
+      "arms": {
+        "raw": {
+          "failed": [
+            "title"
+          ],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-16..2026-11-22 on 2,4",
+            "duration": "60",
+            "title": "Dienstags oder Donnerstag"
+          }
+        },
+        "rules": {
+          "failed": [
+            "title"
+          ],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-16..2026-11-22 on 2,4",
+            "duration": "60",
+            "title": "Dienstags oder Donnerstag"
+          }
+        }
+      },
+      "id": "dienstags-donnerstags-naechste-woche",
+      "lang": "de",
+      "ms": 706,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Dienstags oder donnerstags eine Stunde nächste Woche",
+      "text": "Dienstags oder donnerstags eine Stunde nächste Woche"
+    },
+    {
+      "answer": {
+        "durationMinutes": 60,
+        "windowStartDate": "2026-11-16",
+        "windowEndDate": "2026-11-22",
+        "earliestTime": "14:00",
+        "latestTime": "16:00"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "14:00–16:00",
+            "dates": "2026-11-16..2026-11-22",
+            "duration": "60",
+            "title": "-"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "14:00–16:00",
+            "dates": "2026-11-16..2026-11-22",
+            "duration": "60",
+            "title": "-"
+          }
+        }
+      },
+      "id": "zwischen-14-und-16-naechste-woche",
+      "lang": "de",
+      "ms": 751,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Wann habe ich nächste Woche zwischen 14 und 16 Uhr eine Stunde frei?",
+      "text": "Wann habe ich nächste Woche zwischen 14 und 16 Uhr eine Stunde frei?"
+    },
+    {
+      "answer": {
+        "durationMinutes": 30,
+        "daysOfWeek": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "title": "außer Montag"
+      },
+      "arms": {
+        "raw": {
+          "failed": [
+            "title"
+          ],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-14..2026-11-20 on 2,3,4,5,6,7",
+            "duration": "30",
+            "title": "außer Montag"
+          }
+        },
+        "rules": {
+          "failed": [
+            "title"
+          ],
+          "got": {
+            "bounds": "-",
+            "dates": "2026-11-14..2026-11-20 on 2,3,4,5,6,7",
+            "duration": "30",
+            "title": "außer Montag"
+          }
+        }
+      },
+      "id": "dreissig-minuten-ausser-montag",
+      "lang": "de",
+      "ms": 447,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Finde 30 Minuten außer Montag",
+      "text": "Finde 30 Minuten außer Montag"
+    },
+    {
+      "answer": {
+        "windowStartDate": "2026-11-14",
+        "windowEndDate": "2026-11-14",
+        "daysOfWeek": [
+          6
+        ],
+        "earliestTime": "07:00",
+        "latestTime": "10:00",
+        "title": "Frühstück mit Anna"
+      },
+      "arms": {
+        "raw": {
+          "failed": [],
+          "got": {
+            "bounds": "07:00–10:00",
+            "dates": "2026-11-14..2026-11-14 on 6",
+            "duration": "60",
+            "title": "Frühstück mit Anna"
+          }
+        },
+        "rules": {
+          "failed": [],
+          "got": {
+            "bounds": "07:00–10:00",
+            "dates": "2026-11-14..2026-11-14 on 6",
+            "duration": "60",
+            "title": "Frühstück mit Anna"
+          }
+        }
+      },
+      "id": "fruehstueck-anna-samstag",
+      "lang": "de",
+      "ms": 841,
+      "prompt": "Free time as JSON.\nDays: Sat 2026-11-14 (today), Sun 2026-11-15, Mon 2026-11-16, Tue 2026-11-17, Wed 2026-11-18, Thu 2026-11-19, Fri 2026-11-20, Sat 2026-11-21, Sun 2026-11-22, Mon 2026-11-23, Tue 2026-11-24, Wed 2026-11-25, Thu 2026-11-26, Fri 2026-11-27\nPhrase: Frühstück mit Anna am Samstag",
+      "text": "Frühstück mit Anna am Samstag"
+    }
+  ],
+  "floor": {
+    "raw": 0,
+    "rules": 8
+  },
+  "pipeline": "tuned",
+  "provider": "openai:solunivo-v2-q8",
+  "score": {
+    "raw": {
+      "cases": 36,
+      "fields": {
+        "duration": 40,
+        "dates": 39,
+        "bounds": 40,
+        "title": 37
+      }
+    },
+    "rules": {
+      "cases": 37,
+      "fields": {
+        "duration": 40,
+        "dates": 40,
+        "bounds": 40,
+        "title": 37
+      }
+    },
+    "total": 40
+  },
+  "settings": "http://127.0.0.1:8094/v1",
+  "sha": "fb85077f",
+  "timeZone": "Europe/Vienna",
+  "today": "2026-11-14",
+  "when": "2026-11-14T08:28:19.534Z"
+}
